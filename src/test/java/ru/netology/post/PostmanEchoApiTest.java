@@ -10,7 +10,7 @@ public class PostmanEchoApiTest {
     void shouldReturnPost() {
     given()
             .baseUri("https://postman-echo.com")
-            .body("Best movie")
+            .body("Best book")
        .when()
             .post("/post")
        .then()
